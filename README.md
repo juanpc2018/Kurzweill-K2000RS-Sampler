@@ -75,6 +75,7 @@ would also require a lot of debug to make the software 100% compatible with diff
 
 
 ´´´
+
 https://www.phaedsys.com/principals/bytecraft/index.html
 
 
@@ -102,12 +103,10 @@ https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfuzlogic.pdf
 
 --------------------------
 
-https://web.archive.org/web/20090412185232/http://www.bytecraft.com/C38_C_Compiler_for_Mitsubishi_MELPS  </br>
-
-C38 C Compiler for Mitsubishi MELPS </br>
+[C38 C Compiler for Mitsubishi MELPS](https://web.archive.org/web/20090412185232/http://www.bytecraft.com/C38_C_Compiler_for_Mitsubishi_MELPS) </br>
 C38 C38 | MELPS </br>
 
-The Byte Craft Limited C38 Code Development System supports the entire Mitsubishi MELPS740 (38000) series of microcontrollers, which includes the 7600 series, M509xx, M371xx, M374xx and M38xxx. </br>
+The Byte Craft Limited C38 Code Development System supports the entire Mitsubishi MELPS740 (38000) series of microcontrollers, which includes: 7600 series, M509xx, M371xx, M374xx & M38xxx. </br>
 
 The C38 Code Development System includes: </br>
 
@@ -185,6 +184,7 @@ The C38 compiler supports this hardware feature with the special modifier SP_PAG
 This modifier tells the compiler to locate a subroutine in the last page of memory & routines that call these functions will use short calling sequences for the function call. </br>
 
 ´´´ 
+
 char c1,c2,c3; 
 
 void SP_PAGE test(void); 
@@ -214,7 +214,7 @@ void SP_PAGE test(void)
 
 ------------------------------------
 
-## DEMOS zip
+### DEMOS zip
 
 https://web.archive.org/web/*/http://bytecraft.com/* </br>
 
