@@ -49,7 +49,7 @@ some K2000R did Not come with Analog Input ADC board,  </br>
 Schematics available online do Not include ADC board. </br>
 
 ### ToDo list: </br>
-Reverse Eng. ADC board on KiCAD, Target3001!, Eagle or similar. </br>
+Reverse Eng. ADC board on KiCAD, Target3001!, Eagle, Sprint-Layout or similar. </br>
 
 ------
 
@@ -78,7 +78,7 @@ The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm
 there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is Not 100% the same </br>
 the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative Executions, "No interrupts", No special x86 subnormal floating point instructions vs. modern CPU's with millions per second. </br>
 
-Problem is: </br>
+#### Problem is: </br>
 Kurzweil OS/FW was probably designed in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
 but Byte Craft company is gone since Owner died in 2019, those CPU's had limited support, unlike Intel 8051 MCU wide support </br>
 there is only C38 Compiler Demo Available + Generic LCD library. </br>
