@@ -88,22 +88,26 @@ would require a lot of debug using Digilent Digital Discovery or similar, to mak
 
 ### [Byte Craft Compilers](https://www.phaedsys.com/principals/bytecraft/index.html)
 
-    Byte Craft has been producing a select range of highly optimised compilers and development tools since 1976. The current processor targets are shown below. Byte Craft is, like Phaedrus Systems heavily involved in the international standards panels for C.
+    Byte Craft has been producing a select range of highly optimised compilers and development tools since 1976. 
+    The current processor targets are shown below. Byte Craft is, like Phaedrus Systems heavily involved in the 
+    international standards panels for C.
 
     Walter Banks CEO and owner of Bytecraft passed away in December 2019. He has been greatly missed by the industry.
 
-    Bytecraft closed at the start of 2020, and with it any possibility of supplying any more Bytecraft compilers. We can make available any documentation we have however there is no possibility of finding anything else.
+    Bytecraft closed at the start of 2020, and with it any possibility of supplying any more Bytecraft compilers. 
+    We can make available any documentation we have however there is no possibility of finding anything else.
 
 
     Byte Craft
     Byte Craft IDE and Technical papers
 
-    Byte Craft produces some essential technical papers. The 224 page introduction to embedded systems development (click here)
+    Byte Craft produces some essential technical papers. The 224 page introduction to embedded systems development: 
     https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfirststeps.pdf
     is a must for all new embedded programmers.
-    They also have a paper on the comparison between using C and assembler that is quite surprising.
+    They also have a paper on the comparison between using C and assembler that is quite surprising:
     https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcCversusAssemblyProof.pdf
-    Another interesting paper is the 75 page guide to Fuzzy Logic and how you can us it in most C developments. Download it here
+    Another interesting paper is the 75 page guide to Fuzzy Logic and how you can us it in most C developments. 
+    here:
     https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfuzlogic.pdf
 
 --------------------------
