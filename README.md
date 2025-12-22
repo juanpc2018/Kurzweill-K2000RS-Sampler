@@ -37,7 +37,7 @@ Disadvantage: Both use similar Screen 240x64 </br>
 both screens fail. </br>
 
 Akai Floppy drive is Brand Name </br>
-Kurzweil floppy seem OEM / Generic </br>
+Kurzweil floppy seem OEM </br>
 both can be replaced with Gotek + Flash Floppy FW or Gotek + HxC FW </br>
 
 Kurzweil OS had many updates over the years, </br>
