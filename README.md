@@ -124,6 +124,7 @@ based on MISTer / terasic DE10-nano FPGA + ADC & DAC + MIDI add-on cards + 240x6
 https://dbpedia.org/page/Mitsubishi_740 </br>
 https://www.edn.com/09-24-98-mitsubishi-melps740-wdc-w65co2s-edns-25th-annual-microprocessor-microcontroller-director/ </br>
 [differences](https://www.cpu-world.com/info/6502/65xx_65Cxx_65SCxx_differences.html).[G-translate](https://www-cpu--world-com.translate.goog/info/6502/65xx_65Cxx_65SCxx_differences.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc) </br>
+https://archive.org/search?query=MELPS </br>
 
 Development tools: Mitsubishi's PC4701 emulator </br>
 IAR Systems (www.iar.com), 2500AD (www.2500ad.com), and ByteCraft (www.bytecraft.com) offer C compilers. </br>
