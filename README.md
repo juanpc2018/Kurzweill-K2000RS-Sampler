@@ -110,6 +110,10 @@ would require a lot of debug using Digilent Digital Discovery or similar, to mak
     here:
     https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfuzlogic.pdf
 
+
+As far as i know: </br>
+Byte Craft were the main designers of [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8) [Award-Winning](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers) highly optimized compiler family for AVR MCU's. </br>
+
 --------------------------
 
 [C38 C Compiler for Mitsubishi MELPS](https://web.archive.org/web/20090412185232/http://www.bytecraft.com/C38_C_Compiler_for_Mitsubishi_MELPS) </br>
