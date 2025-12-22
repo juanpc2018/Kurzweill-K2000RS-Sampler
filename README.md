@@ -127,6 +127,7 @@ https://www.edn.com/09-24-98-mitsubishi-melps740-wdc-w65co2s-edns-25th-annual-mi
 https://archive.org/search?query=MELPS </br>
 
 Development tools: Mitsubishi's PC4701 emulator </br>
+https://www.renesas.com/en/software-tool/pc4701u-discontinued-product </br>
 IAR Systems (www.iar.com), 2500AD (www.2500ad.com), and ByteCraft (www.bytecraft.com) offer C compilers. </br>
 WDC provides a Software-Development-System (SDS). </br>
 W65C02S core in the W65C134S microc & W65C816S core in W65C265S micro have embedded monitors that aid in debugging with SDS. </br>
