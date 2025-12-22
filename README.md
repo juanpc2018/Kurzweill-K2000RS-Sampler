@@ -139,6 +139,8 @@ www.wdesignc.com/develop.html </br>
 https://web.archive.org/web/20070920203620/http://www.renesas.com/fmwk.jsp?cnt=/download_search_results.jsp&fp=/support/downloads/download_results&layerId=1032 </br>
 https://web.archive.org/web/20060602014250/http://download.renesas.com/eng/mpumcu/upgrades/in_circuit_emulators/m16c/index.html </br>
 
+[HP Emulator HW](https://archive.org/details/bitsavers_hp64700bro7700EmulatorTechnicalDataNov95_265880) </br>
+
 --------------------------
 
 [C38 C Compiler for Mitsubishi MELPS](https://web.archive.org/web/20090412185232/http://www.bytecraft.com/C38_C_Compiler_for_Mitsubishi_MELPS) </br>
