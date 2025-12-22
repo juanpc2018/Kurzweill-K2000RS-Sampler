@@ -88,6 +88,9 @@ would require Asembly manual code translation, line-by-line where possible </br>
 Eproms are Not Big = possible, do able. </br>
 would require a lot of debug using Digilent Digital Discovery or similar, to make software 100% compatible with different HW architectures. </br>
 
+similar to [JJOS](https://www7a.biglobe.ne.jp/~mpc1000/chart_n.htm) for more modern [Akai MPC samplers](https://www.mpc-tutor.com/jjos-tutorials/) </br>
+but for older samplers. </br>
+
 ### [Byte Craft Compilers](https://www.phaedsys.com/principals/bytecraft/index.html)
 
     Byte Craft has been producing a select range of highly optimised compilers and development tools since 1976. 
