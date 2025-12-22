@@ -60,7 +60,7 @@ Kurzweil has Mitsubishi M37450M8 & Toshiba TMP68301AF-16 </br>
 vs. </br>
 Akai S1000 NEC V50 CPU. </br>
 
-M37450M8 CPU are based on [WDC 65C02](https://en.wikipedia.org/wiki/WDC_65C02) based on--> [MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) </br>
+[Mitsubishi 740](https://en.wikipedia.org/wiki/Mitsubishi_740): M37450M8 CPU are based on [WDC 65C02](https://en.wikipedia.org/wiki/WDC_65C02) based on--> [MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) </br>
 small Page 0 differences at the end of memory space "cache". </br>
 first bytes of memory are reserved. </br>
 instead: </br>
@@ -117,10 +117,27 @@ but for older samplers. </br>
 
 
 As far as i know: </br>
-Byte Craft were the main designers of [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8) [Award-Winning](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers) highly optimized compiler family for AVR MCU's. </br>
+Byte Craft were the main designers of [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8)-[Award-Winning](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers) highly optimized compiler family for AVR MCU's. </br>
 
 Another Option is to create an "Universal Sampler" that can load different Firmwares without modification, </br>
-based on MISTer / terasic DE10-nano FPGA + ADC & DAC + MIDI add-on cards + 240x64 screen + detachable front panel controls add-on "keyboard" like Akai S5000 S6000 </br>
+based on MISTer / terasic DE10-nano FPGA + ADC & DAC + MIDI add-on cards + 240x64 screen + detachable front panel controls "keyboard" like Akai S5000 S6000 Samplers </br>
+
+## MELPS740
+
+https://dbpedia.org/page/Mitsubishi_740 </br>
+https://www.edn.com/09-24-98-mitsubishi-melps740-wdc-w65co2s-edns-25th-annual-microprocessor-microcontroller-director/ </br>
+[differences](https://www.cpu-world.com/info/6502/65xx_65Cxx_65SCxx_differences.html).[G-translate](https://www-cpu--world-com.translate.goog/info/6502/65xx_65Cxx_65SCxx_differences.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc) </br>
+
+Development tools: Mitsubishi's PC4701 emulator </br>
+IAR Systems (www.iar.com), 2500AD (www.2500ad.com), and ByteCraft (www.bytecraft.com) offer C compilers. </br>
+WDC provides a Software-Development-System (SDS). </br>
+W65C02S core in the W65C134S microc & W65C816S core in W65C265S micro have embedded monitors that aid in debugging with SDS. </br>
+monitor ROMs have libraries for onboard I/O, timers, UART, & power management. </br>
+Avocet (www.avocetsystems.com) and Universal Cross Assembler (http://ourworld.compuserve.com/homepages/UCA/) provide compilers for WDC. </br>
+Other third-party vendors supply hardware-development tools. </br>
+www.wdesignc.com/develop.html </br>
+
+[westerndesigncenter.com wdc w65c02s](https://www.westerndesigncenter.com/wdc/w65c02s-chip.php).[g-translate](https://www-westerndesigncenter-com.translate.goog/wdc/w65c02s-chip.php?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc) </br>
 
 --------------------------
 
