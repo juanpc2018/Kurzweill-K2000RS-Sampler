@@ -106,15 +106,12 @@ but for older samplers. </br>
     Byte Craft
     Byte Craft IDE and Technical papers
 
-    Byte Craft produces some essential technical papers. The 224 page introduction to embedded systems development: 
-    https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfirststeps.pdf
-    is a must for all new embedded programmers.
-    They also have a paper on the comparison between using C and assembler that is quite surprising:
-    https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcCversusAssemblyProof.pdf
-    Another interesting paper is the 75 page guide to Fuzzy Logic and how you can us it in most C developments. 
-    here:
-    https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfuzlogic.pdf
-
+    Byte Craft produces some essential technical papers.  
+    a must for all new embedded programmers.
+    
+[224 page introduction to embedded systems development.pdf](https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfirststeps.pdf) </br>
+[comparison between using C and assembler.pdf](https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcCversusAssemblyProof.pdf) </br>
+[75 page guide to Fuzzy Logic, how use it in most C developments.pdf](https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfuzlogic.pdf) </br>
 
 As far as i know: </br>
 Byte Craft were the main designers of [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8)-[Award-Winning](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers) highly optimized compiler family for AVR MCU's. </br>
