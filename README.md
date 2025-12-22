@@ -51,6 +51,8 @@ Schematics available online do Not include ADC board. </br>
 ### ToDo list: </br>
 Reverse Eng. ADC board on KiCAD, Target3001!, Eagle or similar. </br>
 
+------
+
 Firmware/OS update requires Eprom programmer like TL866ii or better, same as Akai S1000. </br>
 
 HW Architecture is "similar" but the interesting part is the CPU differences </br>
@@ -113,6 +115,9 @@ would require a lot of debug using Digilent Digital Discovery or similar, to mak
 
 As far as i know: </br>
 Byte Craft were the main designers of [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8) [Award-Winning](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers) highly optimized compiler family for AVR MCU's. </br>
+
+Another Option is to create an "Universal Sampler" that can load different Firmwares without modification, </br>
+based on MISTer / terasic DE10-nano FPGA + ADC & DAC + MIDI add-on cards + 240x64 screen + detachable front panel controls add-on "keyboard" like Akai S5000 S6000 </br>
 
 --------------------------
 
