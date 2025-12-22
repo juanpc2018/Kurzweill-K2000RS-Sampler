@@ -70,9 +70,13 @@ and Akai S1000 OS/Firmware based on 80186/V50 to WDC 65C02 CPU instruction set. 
 Screen, Floppy code should be very similar, Kurzeil has Akai S1000 floppy compatibility mode </br>
 front panel controls: push buittons & rotary wheel are "very similar" </br>
 
+The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm used in many EDM genres Jungle, DnB, Trance, House, for streaching vocal samples. </br>
+there is even an Akai S1000 Akaizer software emulator software for PC/Desktop, but... is Not 100% the same </br>
+the magic of Akai S1000 was the Slow CPU with No Branch Prediction, No speculative Executions, "No interrupts", x86 subnormal floating points, unlike modern CPU's with millions per second. </br>
+
 Problem is: </br>
-Kurzeil OS was probably desinged in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
-but Byte Craft company is gone since Owner died in 2019, those CPU's had limited support, unlike Intel 8051 wide support </br>
+Kurzeil OS/FW was probably desinged in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
+but Byte Craft company is gone since Owner died in 2019, those CPU's had limited support, unlike Intel 8051 MCU wide support </br>
 there is only C38 Compiler Demo Available + Generic LCD library. </br>
 there are many websites that claim to sell complete C38 compiler, Unknown / Unverified, seem old/abandoned websites. </br>
 
