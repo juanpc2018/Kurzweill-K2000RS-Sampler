@@ -77,7 +77,7 @@ there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is 
 the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative Executions, "No interrupts", No special x86 subnormal floating point instructions vs. modern CPU's with millions per second. </br>
 
 Problem is: </br>
-Kurzweil OS/FW was probably desinged in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
+Kurzweil OS/FW was probably designed in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
 but Byte Craft company is gone since Owner died in 2019, those CPU's had limited support, unlike Intel 8051 MCU wide support </br>
 there is only C38 Compiler Demo Available + Generic LCD library. </br>
 there are many websites that claim to sell complete C38 compiler, Unknown / Unverified, seem old/abandoned websites. </br>
