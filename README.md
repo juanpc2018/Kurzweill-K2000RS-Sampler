@@ -174,18 +174,17 @@ Other features of the C38 Code Development System include: </br>
 
 ---------------------------------------
 
-https://web.archive.org/web/20190314042718/http://bytecraft.com/C38_-_Special_Page_Access </br>
-
-C38 - Special Page Access </br>
+[C38 - Special Page Access](https://web.archive.org/web/20190314042718/http://bytecraft.com/C38_-_Special_Page_Access) </br>
 C38 C38 </br>
 
-The MELPS740 family of microcontrollers is based on the 6502 instruction set.  </br>
-The basic instruction set has been extended and enhanced. One interesting enhancement is the ability to reserve the last page of memory as a special page to hold commonly used subroutines or subroutines that require quick access. </br>
+The MELPS740 family of microcontrollers is based on the 6502 instruction set, </br>
+Basic instruction set has been extended & enhanced. </br>
+One interesting enhancement is the ability to reserve the last page of memory as a special page to hold commonly used subroutines or subroutines that require quick access "cache" </br>
 
-The C38 compiler supports this hardware feature with the special modifier SP_PAGE. This modifier tells the compiler to locate a subroutine in the last page of memory and routines that call these functions will use short calling sequences for the function call. </br>
+The C38 compiler supports this hardware feature with the special modifier SP_PAGE. </br>
+This modifier tells the compiler to locate a subroutine in the last page of memory & routines that call these functions will use short calling sequences for the function call. </br>
 
 ´´´ 
-
 char c1,c2,c3; 
 
 void SP_PAGE test(void); 
