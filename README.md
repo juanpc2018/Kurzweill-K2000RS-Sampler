@@ -74,32 +74,28 @@ Eproms are Not Big = is possible, do able. </br>
 would also require a lot of debug to make the software 100% compatible with different HW architectures. </br>
 
 
-´´´
-
-https://www.phaedsys.com/principals/bytecraft/index.html
 
 
-### Byte Craft Compilers
 
-Byte Craft has been producing a select range of highly optimised compilers and development tools since 1976. The current processor targets are shown below. Byte Craft is, like Phaedrus Systems heavily involved in the international standards panels for C.
+### [Byte Craft Compilers](https://www.phaedsys.com/principals/bytecraft/index.html)
 
-Walter Banks CEO and owner of Bytecraft passed away in December 2019. He has been greatly missed by the industry.
+    Byte Craft has been producing a select range of highly optimised compilers and development tools since 1976. The current processor targets are shown below. Byte Craft is, like Phaedrus Systems heavily involved in the international standards panels for C.
 
-Bytecraft closed at the start of 2020, and with it any possibility of supplying any more Bytecraft compilers. We can make available any documentation we have however there is no possibility of finding anything else.
+    Walter Banks CEO and owner of Bytecraft passed away in December 2019. He has been greatly missed by the industry.
+
+    Bytecraft closed at the start of 2020, and with it any possibility of supplying any more Bytecraft compilers. We can make available any documentation we have however there is no possibility of finding anything else.
 
 
-Byte Craft
-Byte Craft IDE and Technical papers
+    Byte Craft
+    Byte Craft IDE and Technical papers
 
-Byte Craft produces some essential technical papers. The 224 page introduction to embedded systems development (click here)
-https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfirststeps.pdf
-is a must for all new embedded programmers.
-They also have a paper on the comparison between using C and assembler that is quite surprising.
-https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcCversusAssemblyProof.pdf
-Another interesting paper is the 75 page guide to Fuzzy Logic and how you can us it in most C developments. Download it here
-https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfuzlogic.pdf
-
-´´´
+    Byte Craft produces some essential technical papers. The 224 page introduction to embedded systems development (click here)
+    https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfirststeps.pdf
+    is a must for all new embedded programmers.
+    They also have a paper on the comparison between using C and assembler that is quite surprising.
+    https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcCversusAssemblyProof.pdf
+    Another interesting paper is the 75 page guide to Fuzzy Logic and how you can us it in most C developments. Download it here
+    https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfuzlogic.pdf
 
 --------------------------
 
@@ -183,34 +179,30 @@ One interesting enhancement is the ability to reserve the last page of memory as
 C38 compiler supports this hardware feature with special modifier: SP_PAGE </br>
 This modifier tells the compiler to locate a subroutine in the last page of memory & routines that call these functions will use short calling sequences for the function call. </br>
 
-´´´ 
+    char c1,c2,c3; 
 
-char c1,c2,c3; 
+    void SP_PAGE test(void); 
 
-void SP_PAGE test(void); 
-
-void main(void) 
-{ 
+    void main(void) 
+    { 
      c1=4; 
      c2=2; 
      test(); 
      if ((c1=c1-c2)>=3) NOP();
      if ((c1-c2)>=0) NOP();
-}
+    }
 
-void SP_PAGE test1(void)
-{
+    void SP_PAGE test1(void)
+    {
      NOP();
      NOP();
-}
+    }
 
-void SP_PAGE test(void)
-{
+    void SP_PAGE test(void)
+    {
      NOP();
      NOP();
-}
-
-´´´
+    }
 
 ------------------------------------
 
