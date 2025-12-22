@@ -49,7 +49,7 @@ some K2000R did Not come with Analog Input ADC board,  </br>
 Schematics available online do Not include ADC board. </br>
 
 ### ToDo list: </br>
-Reverse Eng. ADC board on KiCAD, Target3001!, Eagle, Sprint-Layout or similar. </br>
+Reverse Eng. ADC board on KiCAD, Target3001!, Eagle, Sprint-Layout, gEDA, LibrePCB, etc... </br>
 
 ------
 
