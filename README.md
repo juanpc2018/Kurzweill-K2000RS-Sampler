@@ -106,9 +106,9 @@ https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfuzlogic.pdf
 [C38 C Compiler for Mitsubishi MELPS](https://web.archive.org/web/20090412185232/http://www.bytecraft.com/C38_C_Compiler_for_Mitsubishi_MELPS) </br>
 C38 C38 | MELPS </br>
 
-The Byte Craft Limited C38 Code Development System supports the entire Mitsubishi MELPS740 (38000) series of microcontrollers, which includes: 7600 series, M509xx, M371xx, M374xx & M38xxx. </br>
+Byte Craft Limited C38 Code Development System supports the entire Mitsubishi MELPS740 (38000) series of microcontrollers, which includes: 7600 series, M509xx, M371xx, M374xx & M38xxx. </br>
 
-The C38 Code Development System includes: </br>
+C38 Code Development System includes: </br>
 
     an optimizing C Cross-compiler.
 
@@ -176,11 +176,11 @@ Other features of the C38 Code Development System include: </br>
 [C38 - Special Page Access](https://web.archive.org/web/20190314042718/http://bytecraft.com/C38_-_Special_Page_Access) </br>
 C38 C38 </br>
 
-The MELPS740 family of microcontrollers is based on the 6502 instruction set, </br>
+MELPS740 family of microcontrollers is based on the 6502 instruction set, </br>
 Basic instruction set has been extended & enhanced. </br>
 One interesting enhancement is the ability to reserve the last page of memory as a special page to hold commonly used subroutines or subroutines that require quick access "cache" </br>
 
-The C38 compiler supports this hardware feature with the special modifier SP_PAGE. </br>
+C38 compiler supports this hardware feature with special modifier: SP_PAGE </br>
 This modifier tells the compiler to locate a subroutine in the last page of memory & routines that call these functions will use short calling sequences for the function call. </br>
 
 ´´´ 
@@ -217,7 +217,6 @@ void SP_PAGE test(void)
 ### DEMOS zip
 
 https://web.archive.org/web/*/http://bytecraft.com/* </br>
-
 
 https://web.archive.org/web/19970215010753/http://www.bytecraft.com:80/c38demo.zip </br>
 https://web.archive.org/web/19980709211241/http://bytecraft.com:80/lcdlib.zip </br>
