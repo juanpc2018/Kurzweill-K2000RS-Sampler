@@ -3,32 +3,34 @@
 [Kurzweil K2000RS (1991-2000)](https://en.wikipedia.org/wiki/Kurzweil_K2000) </br>
 
 CPU: </br>
-Mitsubishi M37450M8 </br>
-Toshiba TMP68301AF-16 </br>
-TC518128AFWL-101LV </br>
+    
+    Mitsubishi M37450M8 </br>
+    Toshiba TMP68301AF-16 </br>
+    TC518128AFWL-101LV </br>
 
-K2MIH 250A </br>
-830106-01 </br>
-74LS145 </br>
-74HC191N </br>
-74HC393 </br>
-74HC74P </br>
+    K2MIH 250A </br>
+    830106-01 </br>
+    74LS145 </br>
+    74HC191N </br>
+    74HC393 </br>
+    74HC74P </br>
 
-Audio 911 YCA </br>
-33,000µF 16v </br>
-4700µF 25v </br>
-LF351N </br>
-TL074CN </br>
+    Audio 911 YCA </br>
+    33,000µF 16v </br>
+    4700µF 25v </br>
+    LF351N </br>
+    TL074CN </br>
 
 ADC: </br>
-74HCT3770 </br>
-CS8402-CS </br>
-CS8412-CS </br>
-CS5336-KS </br>
 
-Kurzweil K2000 Sampler 1991 </br>
+    74HCT3770 </br>
+    CS8402-CS </br>
+    CS8412-CS </br>
+    CS5336-KS </br>
+
+Kurzweil K2000 Sampler (1991-2000) </br>
 "similar" to [AKAI S1000 (1988-1993)](https://en.wikipedia.org/wiki/Akai_S1000) </br>
-"advantage" Kurzeweill uses 1 side Ram, like S3000 </br>
+"advantage" Kurzweil uses 1 side Ram, like S3000 </br>
 instead S1000 requires special / custom RAM cards 2MB / 8MB / 32MB  </br>
 
 Disadvantage: Both use similar Screen 240x64 </br>
