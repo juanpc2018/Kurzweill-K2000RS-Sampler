@@ -135,6 +135,8 @@ Other third-party vendors supply hardware-development tools. </br>
 www.wdesignc.com/develop.html </br>
 
 [westerndesigncenter.com wdc w65c02s](https://www.westerndesigncenter.com/wdc/w65c02s-chip.php).[g-translate](https://www-westerndesigncenter-com.translate.goog/wdc/w65c02s-chip.php?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc) </br>
+https://web.archive.org/web/20070920203620/http://www.renesas.com/fmwk.jsp?cnt=/download_search_results.jsp&fp=/support/downloads/download_results&layerId=1032 </br>
+https://web.archive.org/web/20060602014250/http://download.renesas.com/eng/mpumcu/upgrades/in_circuit_emulators/m16c/index.html </br>
 
 --------------------------
 
