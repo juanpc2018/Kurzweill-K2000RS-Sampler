@@ -34,34 +34,41 @@ instead S1000 requires special / custom RAM cards 2MB / 8MB / 32MB  </br>
 Disadvantage: Both use similar Screen 240x64 </br>
 both screens fail. </br>
 
-Akai Floppy drive seems higher quality, Kurzeill seem OEM / Generic </br>
+Akai Floppy drive is Brand Name </br>
+Kurzeill floppy seem OEM / Generic </br>
+both can be replaced with Gotek + Flash Floppy FW or Gotek + HxC FW </br>
 
 Kurzeill OS had many updates over the years, </br>
 problem is that there is 2 versions of the Board  </br>
 Early / Late, identified with different letters at Boot time, </br>
-or opening the machine and see J on the Eproms when Scren does Not work.  </br>
+or opening machine and see J on the Eproms when Screen does Not work. </br>
 
 some K2000R did Not come with Analog Input ADC board,  </br>
 Schematics available online do Not include ADC board. </br>
 
+### ToDo list: </br>
+Reverse Eng. ADC board on KiCAD, Target3001!, Eagle or similar. </br>
+
 Firmware/OS update requires Eprom programmer like TL866ii or better, same as Akai S1000. </br>
 
-HW Architecture is "similar" but the interesting thing is the CPU differences </br>
-Kurzeill Mitsubishi M37450M8 & Toshiba TMP68301AF-16 </br>
+HW Architecture is "similar" but the interesting part is the CPU differences </br>
+Kurzeill has Mitsubishi M37450M8 & Toshiba TMP68301AF-16 </br>
 vs. </br>
 Akai S1000 NEC V50 CPU. </br>
 
-M37450M8 CPU's are based on the [WDC 65C02](https://en.wikipedia.org/wiki/WDC_65C02) based on--> [MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) </br>
-some small Page 0 differences. </br>
+M37450M8 CPU are based on [WDC 65C02](https://en.wikipedia.org/wiki/WDC_65C02) based on--> [MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) </br>
+small Page 0 differences at the end of memory space "cache". </br>
+first bytes of memory are reserved. </br>
 instead: </br>
-Akai S1000 NEC V50 CPU is based on Intel 80186 + custom instructions + 8086 emulation mode, that requires special Assembler instuction to Activate. </br>
+Akai S1000 NEC V50 CPU is based on Intel 80186 + custom instructions + 8086 emulation mode that requires special Assembler instuction to Activate. </br>
+Example: Doom 8086 version does Not work on Nec v50/v30 without activating that special assembler instruction. </br>
 
-since both machines are "very similar", exept Ram </br>
-would be interesting to translate Kurzweill J OS based on WDC 65C02 to Intel 80186 / NEC V50 CPU </br>
-and translate Akai S1000 OS/Firmware based on 80186/V50 to WDC 65C02 CPU instruction set. </br>
+since both machines are "very similar" exept Ram </br>
+would be interesting to translate Kurzweil J OS based on WDC 65C02 to Intel 80186 / NEC V50 CPU </br>
+and Akai S1000 OS/Firmware based on 80186/V50 to WDC 65C02 CPU instruction set. </br>
 
 Screen, Floppy code should be very similar, Kurzeil has Akai S1000 floppy compatibility mode </br>
-front panel controls "push buittons & rotary wheel are "very similar" </br>
+front panel controls: push buittons & rotary wheel are "very similar" </br>
 
 Problem is: </br>
 Kurzeil OS was probably desinged in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
@@ -70,12 +77,8 @@ there is only C38 Compiler Demo Available + Generic LCD library. </br>
 there are many websites that claim to sell complete C38 compiler, Unknown / Unverified, seem old/abandoned websites. </br>
 
 would require Asembly manual code translation, line-by-line where possible </br>
-Eproms are Not Big = is possible, do able. </br>
-would also require a lot of debug to make the software 100% compatible with different HW architectures. </br>
-
-
-
-
+Eproms are Not Big = possible, do able. </br>
+would require a lot of debug using Digilent Digital Discovery or similar, to make software 100% compatible with different HW architectures. </br>
 
 ### [Byte Craft Compilers](https://www.phaedsys.com/principals/bytecraft/index.html)
 
