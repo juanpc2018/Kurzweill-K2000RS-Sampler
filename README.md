@@ -61,16 +61,17 @@ vs. </br>
 Akai S1000 NEC V50 CPU. </br>
 
 [Mitsubishi 740](https://en.wikipedia.org/wiki/Mitsubishi_740): M37450M8 CPU are based on [WDC 65C02](https://en.wikipedia.org/wiki/WDC_65C02) based on--> [MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) </br>
-small Page 0 differences at the end of memory space "cache". </br>
-first bytes of memory are reserved. </br>
-instead: </br>
-Akai S1000 NEC V50 CPU is based on intel [80186](https://en.wikipedia.org/wiki/Intel_80186) variant + custom instructions + [8088](https://en.wikipedia.org/wiki/Intel_8088) emulation mode that requires special Assembler instuction to Activate. </br>
+65C02 "CMOS" has +12 New instructions +2 New addressing modes vs. MOS 6502 "NMOS"
+M37450 has small Page 0 at the end of memory space "cache" </br>
+first bytes of memory reserved. </br>
+
+Akai S1000 NEC V50 CPU is based on intel [80186](https://en.wikipedia.org/wiki/Intel_80186) + custom instructions + [8088](https://en.wikipedia.org/wiki/Intel_8088) emulation mode that requires special Assembler instuction to Activate. </br>
 Example: </br>
 [Doom 8088](https://github.com/FrenkelS/Doom8088) or [RealDOOM](https://github.com/sqpat/RealDOOM) 16-Bit version does Not work on Nec v50/v30 without activating special assembler instruction. </br>
 
 since both machines are "very similar" exept Ram </br>
 would be interesting to translate Kurzweil J OS based on WDC 65C02 to Intel 80186 / NEC V50 CPU </br>
-and Akai S1000 OS/Firmware based on [80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series)/186/V50 to WDC 65C02 CPU instruction set. </br>
+and Akai S1000 OS/Firmware based on [80186](https://en.wikipedia.org/wiki/Intel_80186)/188/V50 to WDC 65C02 CPU instruction set. </br>
 
 Screen & Floppy code should be very similar, Kurzweil has Akai S1000 floppy compatibility mode </br>
 front panel controls: push buttons & rotary wheel are "very similar" </br>
