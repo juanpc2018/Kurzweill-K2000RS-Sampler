@@ -79,6 +79,7 @@ The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm
 there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is Not 100% the same </br>
 the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative executions, "No interrupts", No special x86 subnormal floating point instructions vs. modern CPU's with millions per second. </br>
 Akai S5000/S6000 has a [i386EX 33MHz](https://www.youtube.com/watch?v=BDU1t6HMHR8&t=1846s) there is No Service Manual, No schematics. </br>
+Akai S3000XL has NEC D70236AGD-16 V53A </br>
 
 #### Problem is: </br>
 Kurzweil OS/FW was probably designed in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
