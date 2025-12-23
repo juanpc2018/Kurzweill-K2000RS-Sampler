@@ -145,6 +145,8 @@ IAR Systems (www.iar.com), [2500ad.com](https://web.archive.org/web/200312131958
 [Universal Cross Assembler C32D/C32W/XDASM](https://web.archive.org/web/19990209091606/http://ourworld.compuserve.com/homepages/UCA/page9.htm). </br>
 https://web.archive.org/web/20220103054902/https://www.cdadapter.com/cross32.htm </br>
 https://web.archive.org/web/20031003031508fw_/http://jm-micro.com/umps.htm </br>
+https://web.archive.org/web/20010406085401/http://www.datasynceng.com/c32doc.htm </br>
+https://web.archive.org/web/20010629203512/http://www.datasynceng.com/xdasmdoc.htm </br>
 
 WDC provides a Software-Development-System (SDS) </br>
 W65C02S core in the W65C134S microc & W65C816S core in W65C265S have embedded monitors that aid in debugging with SDS. </br>
