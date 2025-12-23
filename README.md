@@ -115,7 +115,7 @@ but for older samplers. </br>
 [75 page guide to Fuzzy Logic, how use it in most C developments.pdf](https://www.phaedsys.com/principals/bytecraft/bytecraftdata/bcfuzlogic.pdf) </br>
 
 As far as i know: </br>
-Byte Craft were the main designers of [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8)-[Award-Winning](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers) highly optimized compiler family for AVR MCU's. </br>
+Byte Craft were the main designers of [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8)-[Award-Winning](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers) highly optimized compiler for AVR MCU's. </br>
 
 Another Option is to create an "Universal Sampler" that can load different Firmwares without modification, </br>
 based on MISTer / terasic DE10-nano FPGA + ADC & DAC + MIDI add-on cards + 240x64 screen + detachable front panel controls "keyboard" like Akai S5000 S6000 Samplers </br>
