@@ -80,7 +80,7 @@ there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is 
 the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative executions, "No interrupts", No special x86 subnormal floating point instructions vs. modern CPU's with millions per second. </br>
 Akai S5000/S6000 has a [i386EX 33MHz](https://www.youtube.com/watch?v=BDU1t6HMHR8&t=1846s) there is No Service Manual, No schematics. </br>
 Akai S3000XL has [NEC D70236AGD-16 "V53A"](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjemnKDnBDxT6AjNaYp-hCKJqaT9aOm7GmadFiXyUW3y05UPGqp_Xd7kaGe3f2cw507NfSDjNabNbxPgaANLoDXrRpEuHiduPsuIEChfG2XhYVwukkJ0T2WyKmwsFHvh8srOdTWLnDO-unl/s1600/009.JPG) source code compatible with [V20](https://en.wikipedia.org/wiki/NEC_V20) & V30 </br>
-V30 is [V20](https://en.wikipedia.org/wiki/NEC_V20) with 16-bit External data bus like [80186](https://en.wikipedia.org/wiki/Intel_80186), V30 is pin compatible with the Intel 8086. </br>
+V30 is [V20](https://en.wikipedia.org/wiki/NEC_V20) with 16-bit External data bus like [80186](https://en.wikipedia.org/wiki/Intel_80186) but pin compatible with Intel 8086. </br>
 [V20](https://en.wikipedia.org/wiki/NEC_V20) has 2x 16-bit wide Internal databuses "2x 8088" but 8-bit External data bus multiplexed, similar to [80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) </br>
 V50 is embedded version of V30 </br>
 V53 is V33 with 4-channel DMA (μPD71071 / i8237), UART (μPD71051 / i8251), 3x timer/counters (μPD71054 / i8254) & interrupt controller (μPD71059 / i8259). </br>
