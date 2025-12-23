@@ -64,13 +64,13 @@ Akai S1000 NEC V50 CPU. </br>
 small Page 0 differences at the end of memory space "cache". </br>
 first bytes of memory are reserved. </br>
 instead: </br>
-Akai S1000 NEC V50 CPU is based on Intel 80186 + custom instructions + 8086 emulation mode that requires special Assembler instuction to Activate. </br>
+Akai S1000 NEC V50 CPU is based on Intel [80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) 186 variant + custom instructions + 8086 emulation mode that requires special Assembler instuction to Activate. </br>
 Example: </br>
 [Doom 8088](https://github.com/FrenkelS/Doom8088) or [RealDOOM](https://github.com/sqpat/RealDOOM) 16-Bit version does Not work on Nec v50/v30 without activating special assembler instruction. </br>
 
 since both machines are "very similar" exept Ram </br>
 would be interesting to translate Kurzweil J OS based on WDC 65C02 to Intel 80186 / NEC V50 CPU </br>
-and Akai S1000 OS/Firmware based on 80186/V50 to WDC 65C02 CPU instruction set. </br>
+and Akai S1000 OS/Firmware based on [80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series)/186/V50 to WDC 65C02 CPU instruction set. </br>
 
 Screen & Floppy code should be very similar, Kurzweil has Akai S1000 floppy compatibility mode </br>
 front panel controls: push buttons & rotary wheel are "very similar" </br>
@@ -79,7 +79,16 @@ The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm
 there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is Not 100% the same </br>
 the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative executions, "No interrupts", No special x86 subnormal floating point instructions vs. modern CPU's with millions per second. </br>
 Akai S5000/S6000 has a [i386EX 33MHz](https://www.youtube.com/watch?v=BDU1t6HMHR8&t=1846s) there is No Service Manual, No schematics. </br>
-Akai S3000XL has NEC D70236AGD-16 V53A </br>
+Akai S3000XL has NEC D70236AGD-16 V53A, source code compatible with [V20](https://en.wikipedia.org/wiki/NEC_V20) & V30 </br>
+V30 is [V20](https://en.wikipedia.org/wiki/NEC_V20) with a 16-bit external data bus, V30 is pin compatible with the Intel 8086. </br>
+V50 is embedded version of the V30 </br>
+V53 is V33 core with 4-channel DMA (μPD71071/i8237), UART (μPD71051/i8251), 3x timer/counters (μPD71054/i8254) & interrupt controller (μPD71059/i8259). </br>
+V33 is V30 with separate address & data buses, instruction Decode done by hardwired logic Not microprogrammed control store, </br>
+Throughput is 2x V30 at same clock frequency, performance equivalent to Intel 80286. </br>
+Memory address space is 16M bytes, +2 additional instructions: BRKXA & RETXA </br>
+support extended addressing mode, 8080 emulation mode Not supported. </br>
+[80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) is a economic variant of 80186 with 8-bit external data bus, instead of 16-bit data bus. </br>
+includes: clock generator, interrupt controller, timers, wait state generator, DMA channels, & external chip select lines, 16-bit registers & 1 megabyte address range. </br>
 
 #### Problem is: </br>
 Kurzweil OS/FW was probably designed in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
