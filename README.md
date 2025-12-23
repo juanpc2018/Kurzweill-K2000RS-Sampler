@@ -72,12 +72,13 @@ since both machines are "very similar" exept Ram </br>
 would be interesting to translate Kurzweil J OS based on WDC 65C02 to Intel 80186 / NEC V50 CPU </br>
 and Akai S1000 OS/Firmware based on 80186/V50 to WDC 65C02 CPU instruction set. </br>
 
-Screen, Floppy code should be very similar, Kurzweil has Akai S1000 floppy compatibility mode </br>
+Screen & Floppy code should be very similar, Kurzweil has Akai S1000 floppy compatibility mode </br>
 front panel controls: push buttons & rotary wheel are "very similar" </br>
 
 The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm used in many EDM genres Jungle, DnB, Trance, House, to stretch vocal samples. </br>
 there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is Not 100% the same </br>
 the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative executions, "No interrupts", No special x86 subnormal floating point instructions vs. modern CPU's with millions per second. </br>
+Akai S5000/S6000 has a [i386EX 33MHz](https://www.youtube.com/watch?v=BDU1t6HMHR8&t=1846s) there is No Service Manual, No schematics. </br>
 
 #### Problem is: </br>
 Kurzweil OS/FW was probably designed in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
