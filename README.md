@@ -89,7 +89,7 @@ V33 is V30 with separate address & data buses, instruction Decode done by hardwi
 Throughput is 2x V30 at same clock freq. performance equivalent to intel 80286. </br>
 Memory address space is 16M bytes, +2 additional instructions: BRKXA & RETXA </br>
 support extended addressing mode, 8080 emulation mode Not supported. </br>
-[80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) is an economic version of [80186](https://en.wikipedia.org/wiki/Intel_80186) with 8-bit External data bus, instead of 16-bit e-data bus. </br>
+[80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) is an economic version of [80186](https://en.wikipedia.org/wiki/Intel_80186) with 8-bit External data bus, instead of 16-bit ext-data bus. </br>
 includes: clock generator, interrupt controller, timers, wait state generator, DMA channels, & external chip select lines, 16-bit registers & 1 megabyte address range. </br>
 
 #### Problem is: </br>
