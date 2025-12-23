@@ -141,13 +141,15 @@ https://archive.org/search?query=MELPS </br>
 
 Development tools: </br>
 [Mitsubishi's PC4701 emulator](https://www.renesas.com/en/software-tool/pc4701u-discontinued-product) </br>
-IAR Systems (www.iar.com), [2500ad.com](https://web.archive.org/web/20031213195812/http://www.2500ad.com/), [Avocet Systems](https://web.archive.org/web/20130414105218/http://www.avocetsystems.com/company/other/predemo.htm), ByteCraft (www.bytecraft.com) C compilers. </br>
+IAR Systems (www.iar.com), [2500ad.com](https://web.archive.org/web/20031213195812/http://www.2500ad.com/), [Avocet Systems](https://web.archive.org/web/20130414105218/http://www.avocetsystems.com/company/other/predemo.htm), ByteCraft, </br>
+[Universal Cross Assembler C32D/C32W/XDASM](https://web.archive.org/web/19990209091606/http://ourworld.compuserve.com/homepages/UCA/page9.htm). </br>
+
 WDC provides a Software-Development-System (SDS). </br>
-W65C02S core in the W65C134S microc & W65C816S core in W65C265S micro have embedded monitors that aid in debugging with SDS. </br>
+W65C02S core in the W65C134S microc & W65C816S core in W65C265S have embedded monitors that aid in debugging with SDS. </br>
 monitor ROMs have libraries for onboard I/O, timers, UART, & power management. </br>
-Avocet (www.avocetsystems.com) and Universal Cross Assembler (http://ourworld.compuserve.com/homepages/UCA/) provide compilers for WDC. </br>
-Other third-party vendors supply hardware-development tools. </br>
-www.wdesignc.com/develop.html </br>
+
+Other 3rd-party vendors supply hardware-development tools. </br>
+[www.wdesignc.com/develop.html](https://web.archive.org/web/20041210183717/http://www.wdesignc.com/develop.html) </br>
 
 [westerndesigncenter.com wdc w65c02s](https://www.westerndesigncenter.com/wdc/w65c02s-chip.php).[g-translate](https://www-westerndesigncenter-com.translate.goog/wdc/w65c02s-chip.php?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc) </br>
 https://web.archive.org/web/20070920203620/http://www.renesas.com/fmwk.jsp?cnt=/download_search_results.jsp&fp=/support/downloads/download_results&layerId=1032 </br>
