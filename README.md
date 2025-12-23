@@ -289,3 +289,6 @@ https://web.archive.org/web/19980709211151/http://bytecraft.com:80/z8cdemo.zip
 https://web.archive.org/web/20020615152129*/http://bytecraft.com:80/BCLPatch.exe </br>
 https://web.archive.org/web/20190315060813/http://bytecraft.com/downloads/Li-ion%20battery%20charger.zip </br>
 https://web.archive.org/web/20160409163455/http://www.bytecraft.com/downloads/SAM_software.zip </br>
+
+AVR / ARM </br>
+https://www.rowley.co.uk/avr/index.htm </br>
