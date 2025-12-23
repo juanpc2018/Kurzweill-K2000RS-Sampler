@@ -85,7 +85,7 @@ V30 is [V20](https://en.wikipedia.org/wiki/NEC_V20) with 16-bit External data bu
 V50 is embedded version of V30 </br>
 V53 is V33 with 4-channel DMA (μPD71071 / i8237), UART (μPD71051 / i8251), 3x timer/counters (μPD71054 / i8254) & interrupt controller (μPD71059 / i8259). </br>
 V33 is V30 with separate address & data buses, instruction Decode done by hardwired logic Not microprogrammed control store, </br>
-Throughput is 2x V30 at same clock freq. performance equivalent to Intel 80286. </br>
+Throughput is 2x V30 at same clock freq. performance equivalent to intel 80286. </br>
 Memory address space is 16M bytes, +2 additional instructions: BRKXA & RETXA </br>
 support extended addressing mode, 8080 emulation mode Not supported. </br>
 [80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) is an economic version of [80186](https://en.wikipedia.org/wiki/Intel_80186) with 8-bit External data bus, instead of 16-bit e-data bus. </br>
