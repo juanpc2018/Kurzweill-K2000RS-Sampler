@@ -30,7 +30,7 @@ ADC: </br>
 
 Kurzweil K2000 Sampler (1991-2000) </br>
 "similar" to [AKAI S1000](https://github.com/juanpc2018/Akai-S1000-Project)-[(1988-1993)](https://en.wikipedia.org/wiki/Akai_S1000) </br>
-"advantage" Kurzweil uses 1 side Ram, like S3000 </br>
+"advantage" Kurzweil uses 1 side Ram, like S3000XL, S3000 Non XL still requires custom Ram boards. </br>
 instead S1000 requires special / custom RAM cards: 2MB / 8MB / 32MB  </br>
 
 Disadvantage: Both use similar Screen 240x64 </br>
