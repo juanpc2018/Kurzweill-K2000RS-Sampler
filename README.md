@@ -1,5 +1,6 @@
 # Kurzweil K2000RS Sampler
-
+###### v1.00000001
+-----------
 [Kurzweil K2000RS (1991-2000)](https://en.wikipedia.org/wiki/Kurzweil_K2000) </br>
 
 CPU: </br>
