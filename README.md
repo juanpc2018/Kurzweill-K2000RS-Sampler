@@ -143,8 +143,10 @@ Development tools: </br>
 [Mitsubishi's PC4701 emulator](https://www.renesas.com/en/software-tool/pc4701u-discontinued-product) </br>
 IAR Systems (www.iar.com), [2500ad.com](https://web.archive.org/web/20031213195812/http://www.2500ad.com/), [Avocet Systems](https://web.archive.org/web/20130414105218/http://www.avocetsystems.com/company/other/predemo.htm), ByteCraft, </br>
 [Universal Cross Assembler C32D/C32W/XDASM](https://web.archive.org/web/19990209091606/http://ourworld.compuserve.com/homepages/UCA/page9.htm). </br>
+https://web.archive.org/web/20220103054902/https://www.cdadapter.com/cross32.htm </br>
+https://web.archive.org/web/20031003031508fw_/http://jm-micro.com/umps.htm </br>
 
-WDC provides a Software-Development-System (SDS). </br>
+WDC provides a Software-Development-System (SDS) </br>
 W65C02S core in the W65C134S microc & W65C816S core in W65C265S have embedded monitors that aid in debugging with SDS. </br>
 monitor ROMs have libraries for onboard I/O, timers, UART, & power management. </br>
 
