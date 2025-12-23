@@ -81,13 +81,14 @@ the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative ex
 Akai S5000/S6000 has a [i386EX 33MHz](https://www.youtube.com/watch?v=BDU1t6HMHR8&t=1846s) there is No Service Manual, No schematics. </br>
 Akai S3000XL has [NEC D70236AGD-16 "V53A"](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjemnKDnBDxT6AjNaYp-hCKJqaT9aOm7GmadFiXyUW3y05UPGqp_Xd7kaGe3f2cw507NfSDjNabNbxPgaANLoDXrRpEuHiduPsuIEChfG2XhYVwukkJ0T2WyKmwsFHvh8srOdTWLnDO-unl/s1600/009.JPG) source code compatible with [V20](https://en.wikipedia.org/wiki/NEC_V20) & V30 </br>
 V30 is [V20](https://en.wikipedia.org/wiki/NEC_V20) with a 16-bit external data bus, V30 is pin compatible with the Intel 8086. </br>
+[V20](https://en.wikipedia.org/wiki/NEC_V20) has 2x 16-bit wide internal databuses "2x 8088" but 8-bit external data bus multiplexed, similar to [80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) </br>
 V50 is embedded version of the V30 </br>
-V53 is V33 core with 4-channel DMA (μPD71071/i8237), UART (μPD71051/i8251), 3x timer/counters (μPD71054/i8254) & interrupt controller (μPD71059/i8259). </br>
+V53 is V33 with 4-channel DMA (μPD71071 / i8237), UART (μPD71051 / i8251), 3x timer/counters (μPD71054 / i8254) & interrupt controller (μPD71059 / i8259). </br>
 V33 is V30 with separate address & data buses, instruction Decode done by hardwired logic Not microprogrammed control store, </br>
-Throughput is 2x V30 at same clock frequency, performance equivalent to Intel 80286. </br>
+Throughput is 2x V30 at same clock freq. performance equivalent to Intel 80286. </br>
 Memory address space is 16M bytes, +2 additional instructions: BRKXA & RETXA </br>
 support extended addressing mode, 8080 emulation mode Not supported. </br>
-[80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) is a economic variant of 80186 with 8-bit external data bus, instead of 16-bit data bus. </br>
+[80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) is an economic variant of [80186](https://en.wikipedia.org/wiki/Intel_80186) with 8-bit external data bus, instead of 16-bit data bus. </br>
 includes: clock generator, interrupt controller, timers, wait state generator, DMA channels, & external chip select lines, 16-bit registers & 1 megabyte address range. </br>
 
 #### Problem is: </br>
