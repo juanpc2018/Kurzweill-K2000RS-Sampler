@@ -149,7 +149,7 @@ https://web.archive.org/web/20031003031508fw_/http://jm-micro.com/umps.htm </br>
 https://web.archive.org/web/20010406085401/http://www.datasynceng.com/c32doc.htm </br>
 https://web.archive.org/web/20010629203512/http://www.datasynceng.com/xdasmdoc.htm </br>
 
-WDC provides a Software-Development-System (SDS) </br>
+[WDCTools](https://wdc65xx.com/WDCTools) Software-Development-System (SDS) </br>
 W65C02S core in the W65C134S microc & W65C816S core in W65C265S have embedded monitors that aid in debugging with SDS. </br>
 monitor ROMs have libraries for onboard I/O, timers, UART, & power management. </br>
 
