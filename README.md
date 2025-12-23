@@ -292,3 +292,4 @@ https://web.archive.org/web/20160409163455/http://www.bytecraft.com/downloads/SA
 
 AVR / ARM </br>
 https://www.rowley.co.uk/avr/index.htm </br>
+https://www.rowley.co.uk/crossworks/open_source_code.htm#CrossWorks%20for%20AVR%20-%20LibUSB-WIN32%20Source%20Code </br>
