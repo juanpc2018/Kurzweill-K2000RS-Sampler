@@ -75,7 +75,7 @@ and Akai S1000 OS/Firmware based on 80186/V50 to WDC 65C02 CPU instruction set. 
 Screen, Floppy code should be very similar, Kurzweil has Akai S1000 floppy compatibility mode </br>
 front panel controls: push buttons & rotary wheel are "very similar" </br>
 
-The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm used in many EDM genres Jungle, DnB, Trance, House, for streaching vocal samples. </br>
+The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm used in many EDM genres Jungle, DnB, Trance, House, for stretch vocal samples. </br>
 there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is Not 100% the same </br>
 the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative executions, "No interrupts", No special x86 subnormal floating point instructions vs. modern CPU's with millions per second. </br>
 
