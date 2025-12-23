@@ -65,7 +65,8 @@ small Page 0 differences at the end of memory space "cache". </br>
 first bytes of memory are reserved. </br>
 instead: </br>
 Akai S1000 NEC V50 CPU is based on Intel 80186 + custom instructions + 8086 emulation mode that requires special Assembler instuction to Activate. </br>
-Example: [Doom 8088](https://github.com/FrenkelS/Doom8088) 16-Bit version does Not work on Nec v50/v30 without activating special V50 assembler instruction. </br>
+Example: </br>
+[Doom 8088](https://github.com/FrenkelS/Doom8088) or [RealDOOM](https://github.com/sqpat/RealDOOM) 16-Bit version does Not work on Nec v50/v30 without activating special V50 assembler instruction. </br>
 
 since both machines are "very similar" exept Ram </br>
 would be interesting to translate Kurzweil J OS based on WDC 65C02 to Intel 80186 / NEC V50 CPU </br>
