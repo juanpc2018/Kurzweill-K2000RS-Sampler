@@ -78,7 +78,7 @@ front panel controls: push buttons & rotary wheel are "very similar" </br>
 
 The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm used in many EDM genres Jungle, DnB, Trance, House, to stretch vocal samples. </br>
 there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is Not 100% the same </br>
-the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative executions, "No interrupts", No special x86 subnormal floating point instructions vs. modern CPU's with millions per second. </br>
+the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative executions, Low interrupts, No special x86 subnormal floating point instructions vs. modern CPU's with millions per second. </br>
 Akai S5000/S6000 has a [i386EX 33MHz](https://www.youtube.com/watch?v=BDU1t6HMHR8&t=1846s) there is No Service Manual, No schematics. </br>
 Akai S3000XL has [NEC D70236AGD-16 "V53A"](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjemnKDnBDxT6AjNaYp-hCKJqaT9aOm7GmadFiXyUW3y05UPGqp_Xd7kaGe3f2cw507NfSDjNabNbxPgaANLoDXrRpEuHiduPsuIEChfG2XhYVwukkJ0T2WyKmwsFHvh8srOdTWLnDO-unl/s1600/009.JPG) source code compatible with [V20](https://en.wikipedia.org/wiki/NEC_V20) & V30 </br>
 V30 is [V20](https://en.wikipedia.org/wiki/NEC_V20) with 16-bit External data bus like [80186](https://en.wikipedia.org/wiki/Intel_80186) but pin compatible with [intel 8086](https://en.wikipedia.org/wiki/Intel_8086) </br>
