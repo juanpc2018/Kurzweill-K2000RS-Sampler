@@ -141,7 +141,7 @@ https://archive.org/search?query=MELPS </br>
 
 Development tools: </br>
 [Mitsubishi's PC4701 emulator](https://www.renesas.com/en/software-tool/pc4701u-discontinued-product) </br>
-IAR Systems (www.iar.com), 2500AD (www.2500ad.com), and ByteCraft (www.bytecraft.com) offer C compilers. </br>
+IAR Systems (www.iar.com), [2500ad.com](https://web.archive.org/web/20031213195812/http://www.2500ad.com/), [Avocet Systems](https://web.archive.org/web/20130414105218/http://www.avocetsystems.com/company/other/predemo.htm), ByteCraft (www.bytecraft.com) C compilers. </br>
 WDC provides a Software-Development-System (SDS). </br>
 W65C02S core in the W65C134S microc & W65C816S core in W65C265S micro have embedded monitors that aid in debugging with SDS. </br>
 monitor ROMs have libraries for onboard I/O, timers, UART, & power management. </br>
