@@ -126,8 +126,8 @@ https://www.edn.com/09-24-98-mitsubishi-melps740-wdc-w65co2s-edns-25th-annual-mi
 [differences](https://www.cpu-world.com/info/6502/65xx_65Cxx_65SCxx_differences.html).[G-translate](https://www-cpu--world-com.translate.goog/info/6502/65xx_65Cxx_65SCxx_differences.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc) </br>
 https://archive.org/search?query=MELPS </br>
 
-Development tools: Mitsubishi's PC4701 emulator </br>
-https://www.renesas.com/en/software-tool/pc4701u-discontinued-product </br>
+Development tools: </br>
+[Mitsubishi's PC4701 emulator](https://www.renesas.com/en/software-tool/pc4701u-discontinued-product) </br>
 IAR Systems (www.iar.com), 2500AD (www.2500ad.com), and ByteCraft (www.bytecraft.com) offer C compilers. </br>
 WDC provides a Software-Development-System (SDS). </br>
 W65C02S core in the W65C134S microc & W65C816S core in W65C265S micro have embedded monitors that aid in debugging with SDS. </br>
