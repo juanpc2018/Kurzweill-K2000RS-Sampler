@@ -68,7 +68,7 @@ first 256 bytes of memory are [reserved](https://en.wikipedia.org/wiki/Zero_page
 Akai S1000 NEC V50 CPU is based on intel [80186](https://en.wikipedia.org/wiki/Intel_80186) + custom instructions + [8088](https://en.wikipedia.org/wiki/Intel_8088) emulation mode that requires special Assembler instuction to Activate. </br>
 8086/8088 "x86" has 133 instructions, Z80 has 155, both CISC type. </br>
 
-Examples to compare the performance between NEC V20 & V30 vs. intel: </br>
+Examples to compare performance between: NEC V20 & V30 vs. intel </br>
 [Wolf3D 8088 on V30](https://www.youtube.com/watch?v=UwfzMId3XPs&t=34s) does Not work on Nec v30 without activating special assembler instruction. </br>
 [Doom 8088](https://github.com/FrenkelS/Doom8088) or [RealDOOM](https://github.com/sqpat/RealDOOM) 16-Bit version </br>
 Wolf3D [CGA on 8086](https://www.youtube.com/watch?v=1t8veCWqQQo).[git](https://github.com/jhhoward/WolfensteinCGA) </br>
@@ -87,9 +87,9 @@ count 10k loops & measure time with a Stopwatch: </br>
     20 PRINT I 
     30 NEXT I
     RUN
-6502: 38sec x MHz = 70.0416 </br>
-6809: 52sec x MHz = 95.8464 <- should have been same 38sec.</br>
-Z80: 27sec x MHz = 199.0656 <- should have been 9.5sec or 38/4 </br>
+6502: 38sec x MHz = 70.0416 <- at same clock: 7.3728MHz should have been: 5.15sec. </br>
+6809: 52sec x MHz = 95.8464 <- should have been same: 38sec. </br>
+Z80: 27sec x MHz = 199.0656 <- should have been 9.5sec or 38s/4clk </br>
 Clock per Clock 6502 is Faster, [here is why](https://www.youtube.com/watch?v=ppEpEugeO3k) </br>
 
 ---------------------------------------
@@ -160,7 +160,26 @@ Byte Craft were the main designers of [MPLAB XC8](https://www.microchip.com/en-u
 Another Option is to create an "Universal Sampler" that can load different Firmwares without modification, </br>
 based on MISTer / terasic DE10-nano FPGA + ADC & DAC + MIDI add-on cards + 240x64 screen + detachable front panel controls "keyboard" like Akai S5000 S6000 Samplers </br>
 
-## MELPS740
+## M37450M8-197FP </br>
+Circuit Function & Organization: </br>
+16K-Byte Mask-Prog. ROM,  </br>
+384-Byte RAM, </br>
+8-bit A-D converter, </br>
+8-bit D-A converter, </br>
+UART, </br>
+DBB, </br>
+3-timer, </br>
+PWM </br>
+
+Structure: C, Si </br>
+Supply Voltage: 5V +/-10% = 4.5v-5.5v Recomended: 4.8v-5.20vdc "+/-4%" </br>
+Power Dissipation: 30mW </br>
+min cycle time: 0.8µS </br>
+Max Freq: 10MHz </br>
+Package: 64P4B/80P6 </br>
+
+M37450.M2 & M4 are smaller, have: </br>
+4K/128 & 8K/256 ROM/RAM </br>
 
 https://dbpedia.org/page/Mitsubishi_740 </br>
 https://www.edn.com/09-24-98-mitsubishi-melps740-wdc-w65co2s-edns-25th-annual-microprocessor-microcontroller-director/ </br>
