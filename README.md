@@ -43,7 +43,7 @@ both can be replaced with Gotek + Flash Floppy FW or Gotek + HxC FW </br>
 Kurzweil OS had many updates over the years, </br>
 problem is that there is 2 versions of the Board  </br>
 Early / Late, identified with different letters at Boot time, </br>
-or opening machine and see J on the Eproms when Screen does Not work. </br>
+or open the machine and see C or J on the Eproms when Screen does Not work. </br>
 
 some K2000R did Not come with Analog Input ADC board,  </br>
 Schematics available online do Not include ADC board. </br>
