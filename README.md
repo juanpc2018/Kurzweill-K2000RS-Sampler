@@ -67,6 +67,7 @@ first 256 bytes of memory are [reserved](https://en.wikipedia.org/wiki/Zero_page
 
 Akai S1000 NEC V50 CPU is based on intel [80186](https://en.wikipedia.org/wiki/Intel_80186) + custom instructions + [8088](https://en.wikipedia.org/wiki/Intel_8088) emulation mode that requires special Assembler instuction to Activate. </br>
 8086/8088 "x86" has 133 instructions, Z80 has 155, both CISC type. </br>
+
 Examples to compare the performance between NEC V20 & V30 vs. intel: </br>
 [Wolf3D 8088 on V30](https://www.youtube.com/watch?v=UwfzMId3XPs&t=34s) does Not work on Nec v30 without activating special assembler instruction. </br>
 [Doom 8088](https://github.com/FrenkelS/Doom8088) or [RealDOOM](https://github.com/sqpat/RealDOOM) 16-Bit version </br>
