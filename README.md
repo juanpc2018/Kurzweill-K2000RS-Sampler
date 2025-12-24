@@ -78,6 +78,10 @@ Wolf3D [CGA on 8086](https://www.youtube.com/watch?v=1t8veCWqQQo).[git](https://
 [Wolf3D on IBM Model30 with V30 upgrade](https://www.youtube.com/watch?v=MeJTtX7vSag&t=199s) </br>
 [286 vs. V30](https://www.youtube.com/watch?v=CTc9Orx89Mk&t=25s) </br>
 Doom & Wolf3D on Amiga1200 [Motorola 68030/68060](https://www.youtube.com/watch?v=wsADJa-23Sg&t=767s) </br>
+Doom on C64 + RAD Expansion ["Pi3 CPU"](https://www.youtube.com/watch?v=zAla_RtPECE&t=1767s) </br>
+[6502 at 1.8432MHz 32k vs. M6809 at 1.8432MHz 32k vs. Z80 at 7.3728MHz 56k](https://www.youtube.com/watch?v=p5mwMwwM-R0&t=3s) </br>
+count 10k loops: 6502: 38sec x MHZ = 70.0416 | 6809: 52sec x MHZ = 95.8464 | Z80: 27sec x MHZ = 199.0656 </br>
+Clock per Clock 6502 is Faster. </br>
 
 ---------------------------------------
 
