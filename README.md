@@ -278,6 +278,17 @@ https://web.archive.org/web/*/http://bytecraft.com/* </br>
 https://web.archive.org/web/19970215010753/http://www.bytecraft.com:80/c38demo.zip </br>
 https://web.archive.org/web/19980709211241/http://bytecraft.com:80/lcdlib.zip </br>
 
+https://web.archive.org/web/20150701140238if_/http://www.cdadapter.com:80/download/cross32.pdf </br>
+https://web.archive.org/web/20070203144417if_/http://www.datasynceng.com:80/c32demo.zip </br>
+https://web.archive.org/web/20070203114308if_/http://www.datasynceng.com:80/c32dem95.zip </br>
+https://web.archive.org/web/20000830093257if_/http://www.datasynceng.com:80/xdemo.zip </br>
+https://web.archive.org/web/20000830093303if_/http://www.datasynceng.com:80/dis8051.zip </br>
+https://web.archive.org/web/20000830093309if_/http://www.datasynceng.com:80/utility.zip </br>
+https://web.archive.org/web/20000830093314if_/http://www.datasynceng.com:80/basic52.zip </br>
+https://web.archive.org/web/20160720211638if_/http://www.cdadapter.com/images/c32pix.jpg </br>
+https://web.archive.org/web/20190319051104if_/http://www.cdadapter.com/images/c32pix1.jpg </br>
+https://web.archive.org/web/20161202021646if_/http://www.cdadapter.com/images/c32w9x.jpg </br>
+
 https://web.archive.org/web/20020126145810*/http://www.bytecraft.com:80/c6805demo.zip </br>
 https://web.archive.org/web/19970215010608/http://www.bytecraft.com:80/c6808dem.zip </br>
 https://web.archive.org/web/19980709211119/http://bytecraft.com:80/c6808demo.zip </br>
