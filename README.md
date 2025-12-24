@@ -87,7 +87,7 @@ count 10k loops in MS Basic & measure time with a Stopwatch: </br>
     20 PRINT I 
     30 NEXT I
     RUN
-6502: 38sec x MHz = 70.0416 <- at same clock: 7.3728MHz should have been: 5.15sec. </br>
+6502: 38sec x MHz = 70.0416 <- at 7.3728MHz should have been: 5.15sec. </br>
 6809: 52sec x MHz = 95.8464 <- should have been same: 38sec. </br>
 Z80: 27sec x MHz = 199.0656 <- should have been 9.5sec or 38s/4clk </br>
 Clock per Clock 6502 is Faster, [here is why](https://www.youtube.com/watch?v=ppEpEugeO3k) </br>
