@@ -77,6 +77,7 @@ Wolf3D [CGA on 8086](https://www.youtube.com/watch?v=1t8veCWqQQo).[git](https://
 [NEC v20 review](https://www.youtube.com/watch?v=Z1u-IrBT9hE&t=17s) </br>
 [Wolf3D on IBM Model30 with V30 upgrade](https://www.youtube.com/watch?v=MeJTtX7vSag&t=199s) </br>
 [286 vs. V30](https://www.youtube.com/watch?v=CTc9Orx89Mk&t=25s) </br>
+Doom & Wolf3D on Amiga1200 [Motorola 68030/68060](https://www.youtube.com/watch?v=wsADJa-23Sg&t=767s) </br>
 
 ---------------------------------------
 
