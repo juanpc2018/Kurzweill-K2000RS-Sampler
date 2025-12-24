@@ -87,10 +87,9 @@ count 10k loops & measure time with a Stopwatch: </br>
     30 NEXT I
     RUN
 6502: 38sec x MHz = 70.0416 </br>
-6809: 52sec x MHz = 95.8464 </br>
-Z80: 27sec x MHz = 199.0656 </br>
+6809: 52sec x MHz = 95.8464 <- should have been same 38sec.</br>
+Z80: 27sec x MHz = 199.0656 <- should have been 9.5sec or 38/4 </br>
 Clock per Clock 6502 is Faster, [here is why](https://www.youtube.com/watch?v=ppEpEugeO3k) </br>
-Z80 result should have been 9.5sec or 38/4 </br>
 
 ---------------------------------------
 
