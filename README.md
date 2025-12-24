@@ -84,12 +84,13 @@ count 10k loops: </br>
 6502: 38sec x MHZ = 70.0416 </br>
 6809: 52sec x MHZ = 95.8464 </br>
 Z80: 27sec x MHZ = 199.0656 </br>
-Clock per Clock 6502 is Faster. </br>
+Clock per Clock 6502 is Faster. [Why here](https://www.youtube.com/watch?v=ppEpEugeO3k) </br>
 
     10 FOR I =1 TO 10000 
     20 PRINT I 
     30 NEXT I
     RUN
+
 
 ---------------------------------------
 
