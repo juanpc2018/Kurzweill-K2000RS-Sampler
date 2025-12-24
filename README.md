@@ -176,7 +176,7 @@ Supply Voltage: 5V +/-10% = 4.5v-5.5v Recomended: 4.8v-5.20vdc "+/-4%" </br>
 Power Dissipation: 30mW </br>
 min cycle time: 0.8µS </br>
 Max Freq: 10MHz </br>
-Package: 64P4B/80P6 </br>
+Package: 64P4B "dip" or 80P6 <- surface mount </br>
 
 M37450.M2 & M4 are smaller, have: </br>
 4K/128 & 8K/256 ROM/RAM </br>
