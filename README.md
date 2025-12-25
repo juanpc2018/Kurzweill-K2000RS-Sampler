@@ -237,6 +237,8 @@ https://6502bench.com/ </br>
 [BenEater](https://eater.net/) tutorial video series </br>
 https://github.com/redayzarra/6502-Computer-Guide </br>
 
+[Instruction Set Decoded](https://llx.com/Neil/a2/opcodes.html) </br>
+
 ### 6502 FPGA VHDL
 [for Xilinx Foundation M1.5 SW.zip](https://www.sprow.co.uk/dump/free6502/foundation6502.zip) </br>
 [Generic VHDL.zip](https://www.sprow.co.uk/dump/free6502/free6502.zip) </br>
