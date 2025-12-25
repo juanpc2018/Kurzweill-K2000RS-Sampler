@@ -80,16 +80,20 @@ Wolf3D [CGA on 8086](https://www.youtube.com/watch?v=1t8veCWqQQo).[git](https://
 [286 vs. V30](https://www.youtube.com/watch?v=CTc9Orx89Mk&t=25s) </br>
 Doom & Wolf3D on Amiga1200 [Motorola 68030/68060](https://www.youtube.com/watch?v=wsADJa-23Sg&t=767s) </br>
 Doom on C64 + RAD Expansion ["Pi3 CPU"](https://www.youtube.com/watch?v=zAla_RtPECE&t=1767s) </br>
-[6502 at 1.8432MHz 32k vs. M6809 at 1.8432MHz 32k vs. Z80 at 7.3728MHz 56k](https://www.youtube.com/watch?v=p5mwMwwM-R0&t=3s) </br>
+
+[6502 vs. M6809 vs. Z80](https://www.youtube.com/watch?v=p5mwMwwM-R0&t=3s) </br>
 count 10k loops in MS Basic & measure time with a Stopwatch: </br>
+6502 1.8432MHz 32k </br>
+M6809 1.8432MHz 32k </br>
+Z80 at 7.3728MHz 56k </br>
 
     10 FOR I =1 TO 10000 
     20 PRINT I 
     30 NEXT I
     RUN
 6502: 38sec x MHz = 70.0416 <- at 7.3728MHz should have been: 5.15sec. </br>
-6809: 52sec x MHz = 95.8464 <- should have been same: 38sec. </br>
-Z80: 27sec x MHz = 199.0656 <- should have been 9.5sec or 38s/4clk </br>
+6809: 52sec x MHz = 95.8464 <- same clk should have been the same vs. 6502: 38sec. </br>
+Z80: 27sec x MHz = 199.0656 <- has clk*4 should have been 9.5sec or 38s/4clk </br>
 Clock per Clock 6502 is Faster, [here is why](https://www.youtube.com/watch?v=ppEpEugeO3k) </br>
 modern CPU's need to count to [>1 Billion](https://www.youtube.com/watch?v=VioxsWYzoJk) in c++ </br>
 
