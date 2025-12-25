@@ -113,7 +113,6 @@ The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm
 there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is Not 100% the same </br>
 the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative executions, Low interrupts, No special x86 subnormal instructions, No [8087 co-processor](https://www.youtube.com/watch?v=FaQa9INqZf8) floating point instructions </br>
 vs. modern CPU's with millions per second. </br>
-Akai S5000/S6000 has a [i386EX 33MHz](https://www.youtube.com/watch?v=BDU1t6HMHR8&t=1846s) there is No Service Manual, No schematics, </br>
 Akai S3000XL has [NEC D70236AGD-16 "V53A"](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjemnKDnBDxT6AjNaYp-hCKJqaT9aOm7GmadFiXyUW3y05UPGqp_Xd7kaGe3f2cw507NfSDjNabNbxPgaANLoDXrRpEuHiduPsuIEChfG2XhYVwukkJ0T2WyKmwsFHvh8srOdTWLnDO-unl/s1600/009.JPG) source code compatible with [V20](https://en.wikipedia.org/wiki/NEC_V20) & V30 </br>
 V30 is [V20](https://en.wikipedia.org/wiki/NEC_V20) with 16-bit External data bus like [80186](https://en.wikipedia.org/wiki/Intel_80186) but pin compatible with [intel 8086](https://en.wikipedia.org/wiki/Intel_8086) </br>
 [V20](https://en.wikipedia.org/wiki/NEC_V20) has 2x 16-bit wide Internal databuses "2x 8088" but 8-bit External data bus multiplexed, similar to [80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) </br>
@@ -125,6 +124,7 @@ Memory address space is 16M bytes, +2 additional instructions: BRKXA & RETXA </b
 support extended addressing mode, 8080 emulation mode Not supported. </br>
 [80188](https://en.wikipedia.org/wiki/Intel_80186#80188_series) is an economic version of [80186](https://en.wikipedia.org/wiki/Intel_80186) with 8-bit External data bus, instead of 16-bit ext-data bus. </br>
 includes: clock generator, interrupt controller, timers, wait state generator, DMA channels, & external chip select lines, 16-bit registers & 1 megabyte address range. </br>
+Akai S5000/S6000 has a [i386EX 33MHz](https://www.youtube.com/watch?v=BDU1t6HMHR8&t=1846s) there is No Service Manual, No schematics, </br>
 
 
 #### Problem is: </br>
@@ -165,8 +165,9 @@ but for older samplers. </br>
 As far as i know: </br>
 Byte Craft were the main designers of [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8)-[Award-Winning](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers) highly optimized compiler for AVR MCU's. </br>
 
-Another Option is to create an "Universal Sampler" that can load different Firmwares without modification, </br>
-based on MISTer / terasic DE10-nano FPGA + ADC & DAC + MIDI add-on cards + 240x64 screen + detachable front panel controls "keyboard" like Akai S5000 S6000 Samplers </br>
+Another Option is to create an "Universal Sampler FPGA Core" that can load different Firmwares/ROMs without modification, </br>
+based on MISTer / terasic DE10-nano FPGA + ADC & DAC + MIDI add-on cards + 240x64 screen + detachable front panel controls "keyboard" like Akai S6000 Sampler </br>
+MISTer [ao486sx core](https://github.com/MiSTer-devel/ao486_MiSTer) - [ALSA MidiLink](https://github.com/MiSTer-devel/MidiLink_MiSTer) - [129MB SDRAM](https://github.com/MiSTer-devel/Hardware_alternative) </br>
 
 ## M37450M8-197FP </br>
 Circuit Function & Organization: </br>
