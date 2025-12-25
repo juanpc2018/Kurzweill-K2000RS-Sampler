@@ -225,6 +225,8 @@ https://6502bench.com/ </br>
 
 [OpCodes](http://6502.org/tutorials/65c02opcodes.html) </br>
 
+[MOS 6500 pdf](https://archive.org/search?query=MOS-6500+pdf) </br>
+
 [BenEater](https://eater.net/) tutorial video series </br>
 https://github.com/redayzarra/6502-Computer-Guide </br>
 
