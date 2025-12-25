@@ -220,7 +220,7 @@ https://6502bench.com/ </br>
 [cc65 complete cross dev package](https://cc65.github.io/getting-started.html) for 65(C)02 </br>
 [source](https://github.com/cc65/cc65) </br>
 [Win 32&64 Bin](https://sourceforge.net/projects/cc65/files/) </br>
-[Deb Bin/Repo](https://software.opensuse.org/download.html?project=home%3Astrik&package=cc65)
+[Deb Bin/Repo](https://software.opensuse.org/download.html?project=home%3Astrik&package=cc65) </br>
 [demos](https://sourceforge.net/projects/cc65/files/contrib/) </br>
 
 [BenEater](https://eater.net/) tutorial video series </br>
