@@ -60,7 +60,7 @@ Kurzweil has Mitsubishi M37450M8 & Toshiba TMP68301AF-16 </br>
 vs. </br>
 Akai S1000 NEC V50 CPU. </br>
 
-[Mitsubishi 740](https://en.wikipedia.org/wiki/Mitsubishi_740): M37450M8 CPU are based on [WDC 65C02](https://en.wikipedia.org/wiki/WDC_65C02) based on--> [MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) </br>
+[Mitsubishi](https://en.wikipedia.org/wiki/Mitsubishi_740): M37450M8 CPU are based on [WDC 65C02](https://en.wikipedia.org/wiki/WDC_65C02) based on--> [MOS 6502](https://en.wikipedia.org/wiki/MOS_Technology_6502) </br>
 65C02 "CMOS" has +12 New instructions +2 New addressing modes "70 total" vs. MOS 6502 "NMOS" 56-total, both RISC type.</br>
 M37450 has small Page 0 at the end of memory space "cache" </br>
 first 256 bytes of memory are [reserved](https://en.wikipedia.org/wiki/Zero_page) </br>
