@@ -208,6 +208,8 @@ https://web.archive.org/web/20070920203620/http://www.renesas.com/fmwk.jsp?cnt=/
 https://web.archive.org/web/20060602014250/http://download.renesas.com/eng/mpumcu/upgrades/in_circuit_emulators/m16c/index.html </br>
 
 [HP Emulator HW](https://archive.org/details/bitsavers_hp64700bro7700EmulatorTechnicalDataNov95_265880) </br>
+https://www.masswerk.at/6502/disassembler.html </br>
+https://github.com/trebonian/visual6502 </br>
 
 --------------------------
 
