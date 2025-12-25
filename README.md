@@ -91,10 +91,10 @@ Z80 at 7.3728MHz 56k </br>
     20 PRINT I 
     30 NEXT I
     RUN
-6502: 38sec x MHz = 70.0416 <- at 7.3728MHz should have been: 5.15sec. </br>
-6809: 52sec x MHz = 95.8464 <- same clk should have been the same vs. 6502: 38sec. </br>
-Z80: 27sec x MHz = 199.0656 <- has clk*4 should have been 9.5sec or 38s/4clk </br>
-Clock per Clock 6502 is Faster, [here is why](https://www.youtube.com/watch?v=ppEpEugeO3k) </br>
+6502: 38sec x MHz = 70.04 <- at 7.3728MHz should have been: 5.15sec. | /Mhz = 20.61 </br>
+6809: 52sec x MHz = 95.84 <- same clk should have been the same vs. 6502: 38sec. | /Mhz = 28.21 </br>
+Z80: 27sec x MHz = 199.06 <- has clk*4 should have been 9.5sec or 38s/4clk | /Mhz = 3.66 </br>
+Clock per Clock 6502 is Faster [here is why](https://www.youtube.com/watch?v=ppEpEugeO3k) </br>
 modern CPU's need to count to [>1 Billion](https://www.youtube.com/watch?v=VioxsWYzoJk) in c++ </br>
 
 ---------------------------------------
