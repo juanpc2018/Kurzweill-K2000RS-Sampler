@@ -215,7 +215,10 @@ https://6502bench.com/ </br>
 [Basic Features](https://www.youtube.com/watch?v=dalISyBPQq8) </br>
 [Space Eggs](https://www.youtube.com/watch?v=lSvEr5nCHbY) </br>
 [SourceGen Disassembly Demo Projects](https://6502disassembly.com/) </br>
-https://github.com/fadden/6502bench/
+[SourceGen convert: machine-language -> assembly](https://github.com/fadden/6502bench/) .NET 4.6.2 & 4.8 W7 </br>
+
+[BenEater](https://eater.net/) tutorial video series </br>
+https://github.com/redayzarra/6502-Computer-Guide </br>
 
 --------------------------
 
