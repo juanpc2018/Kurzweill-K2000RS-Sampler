@@ -231,12 +231,11 @@ https://6502bench.com/ </br>
 https://github.com/redayzarra/6502-Computer-Guide </br>
 
 ### 6502 FPGA VHDL
-https://www.sprow.co.uk/dump/index.htm#Free6502
-[for Xilinx Foundation M1.5 SW](https://www.sprow.co.uk/dump/free6502/foundation6502.zip) </br>
-[Generic VHDL](https://www.sprow.co.uk/dump/free6502/free6502.zip) </br>
-[changes doc from 0.7](https://www.sprow.co.uk/dump/free6502/changes6502.zip) </br>
-[Original Free-6502 v0.7 "No BCD arithmetic to the ALU](http://www.pldworld.com/_hdl/4/_ip/Free6502/www/Free6502_v07.ZIP) </br>
-[other links](http://www.pldworld.com/_hdl/4/_ip/Free6502/www/index.html) </br>
+[for Xilinx Foundation M1.5 SW.zip](https://www.sprow.co.uk/dump/free6502/foundation6502.zip) </br>
+[Generic VHDL.zip](https://www.sprow.co.uk/dump/free6502/free6502.zip) </br>
+[changes doc from 0.7.zip](https://www.sprow.co.uk/dump/free6502/changes6502.zip) </br>
+[Original Free-6502 v0.7.zip "No BCD arithmetic to the ALU"](http://www.pldworld.com/_hdl/4/_ip/Free6502/www/Free6502_v07.ZIP) </br>
+[other links1](http://www.pldworld.com/_hdl/4/_ip/Free6502/www/index.html).[2](https://www.sprow.co.uk/dump/index.htm#Free6502) </br>
 
 --------------------------
 
