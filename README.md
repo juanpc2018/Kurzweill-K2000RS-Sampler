@@ -82,7 +82,7 @@ Doom & Wolf3D on Amiga1200 [Motorola 68030/68060](https://www.youtube.com/watch?
 Doom on C64 + RAD Expansion ["Pi3 CPU"](https://www.youtube.com/watch?v=zAla_RtPECE&t=1767s) </br>
 
 [6502 vs. M6809 vs. Z80](https://www.youtube.com/watch?v=p5mwMwwM-R0&t=3s) </br>
-count 10k loops in MS Basic & measure time with a Stopwatch: </br>
+count 10k loops in [MS-Basic](https://github.com/mist64/msbasic) & measure time with a Stopwatch: </br>
 6502 | 1.8432MHz | Ram: 32k </br>
 M6809 | 1.8432MHz | Ram: 32k </br>
 Z80 | 7.3728MHz | Ram: 56k </br>
