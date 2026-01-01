@@ -5,7 +5,7 @@
 CPU: </br>
     
     Mitsubishi M37450M8 </br>
-    Toshiba TMP68301AF-16 </br>
+    [Toshiba TMP68301](https://archive.org/details/tmp-68301-toshiba/page/n31/mode/2up)AF-16 </br>
     TC518128AFWL-101LV </br>
 
     K2MIH 250A </br>
