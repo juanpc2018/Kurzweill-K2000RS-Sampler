@@ -5,7 +5,7 @@
 CPU: </br>
     
     Mitsubishi M37450M8 </br>
-    [Toshiba TMP68301](https://archive.org/details/tmp-68301-toshiba/page/n31/mode/2up)AF-16 </br>
+    Toshiba TMP68301AF-16 </br>
     TC518128AFWL-101LV </br>
 
     K2MIH 250A </br>
@@ -55,7 +55,7 @@ Reverse Eng. ADC board on KiCAD, Target3001!, Eagle, Sprint-Layout, gEDA, LibreP
 Firmware/OS update requires Eprom programmer like TL866ii or better, same as Akai S1000. </br>
 
 HW Architecture is "similar" but the interesting part is the CPU differences </br>
-Kurzweil has Mitsubishi M37450M8 & Toshiba TMP68301AF-16 </br>
+Kurzweil has Mitsubishi M37450M8 & [Toshiba TMP68301](https://archive.org/details/tmp-68301-toshiba/page/n31/mode/2up)AF-16 </br>
 vs. </br>
 Akai S1000 NEC V50 CPU. </br>
 
