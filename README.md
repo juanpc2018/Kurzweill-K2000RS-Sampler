@@ -72,8 +72,8 @@ Examples to compare performance between: NEC V20 vs. V30 vs. intel </br>
 [Doom 8088](https://github.com/FrenkelS/Doom8088) or [RealDOOM](https://github.com/sqpat/RealDOOM) 16-Bit version </br>
 Wolf3D [CGA on 8086](https://www.youtube.com/watch?v=1t8veCWqQQo).[git](https://github.com/jhhoward/WolfensteinCGA) </br>
 [Doom 8088 on 386sx 20MHz](https://www.youtube.com/watch?v=L-jWabyuUkM&t=4s) </br>
-[Book 8088 V20](https://www.youtube.com/watch?v=6bODiZ5bP84&t=222s) -> [Updated](https://www.youtube.com/watch?v=CPT6nzopPDw&t=210s) -> [Wold3D CGA on KM18](https://www.youtube.com/watch?v=CPT6nzopPDw&t=938s)</br>
-[Wold3D CGA on IBM 5150](https://www.youtube.com/watch?v=auVLqRJCOJ4&t=13s) </br>
+[Book 8088 V20](https://www.youtube.com/watch?v=6bODiZ5bP84&t=222s) -> [Updated](https://www.youtube.com/watch?v=CPT6nzopPDw&t=210s) -> [Wolf3D CGA on KM18](https://www.youtube.com/watch?v=CPT6nzopPDw&t=938s)</br>
+[Wolf3D CGA on IBM 5150](https://www.youtube.com/watch?v=auVLqRJCOJ4&t=13s) </br>
 [NEC v20 review](https://www.youtube.com/watch?v=Z1u-IrBT9hE&t=17s) </br>
 [Wolf3D on IBM Model30 with V30 upgrade](https://www.youtube.com/watch?v=MeJTtX7vSag&t=199s) </br>
 [286 vs. V30](https://www.youtube.com/watch?v=CTc9Orx89Mk&t=25s) </br>
