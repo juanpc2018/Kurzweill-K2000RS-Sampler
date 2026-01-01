@@ -115,7 +115,7 @@ Problem is: S1000 V50 "v20/v30" CPU may Not be powerful enough... </br>
 2x more powerful vs. V50 "v20/v30" CPU </br>
 Translating: </br>
 K2000 OS -> S1000 HW difficult, Only Basic functions like Screen, buttons, etc... </br>
-S1000 OS -> S2000/S3000 HW possible, V53A is intruction compatible with V50, needs to adapt the code for the New HW. </br>
+S1000 OS -> S2000/S3000 HW possible, V53A is intruction compatible with V50, needs to adapt for New HW. </br>
 K2000 OS -> S2000/S3000 HW maybe has enough CPU. </br>
 S1000 OS -> Kurzeil K2000RS HW, has enough CPU. </br>
  
