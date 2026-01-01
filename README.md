@@ -103,11 +103,19 @@ modern CPU's need to count to [>1 Billion](https://www.youtube.com/watch?v=Vioxs
 ---------------------------------------
 
 since both Samplers are "very similar" exept Ram </br>
-would be interesting to translate Kurzweil J OS based on WDC 65C02 to Intel 80186 / NEC V50 CPU </br>
+would be interesting to translate Kurzweil J OS based on WDC 65C02 + Toshiba "68K" CPU to Intel 80186 / NEC V50 CPU </br>
 and Akai S1000 OS/Firmware based on [80186](https://en.wikipedia.org/wiki/Intel_80186)/188/V50 to WDC 65C02 CPU instruction set. </br>
 
 Screen & Floppy code should be very similar, Kurzweil has Akai S1000 floppy compatibility mode </br>
 front panel controls: push buttons & rotary wheel are "very similar" </br>
+
+Problem is that the S1000 V50 "v20/v30" CPU may Not be powerful enough... </br>
+Akai S2000 & S3000 Non-XL have the same V53A "V33" CPU </br>
+2x more powerful vs. V50 "v20/v30" CPU </br>
+Translating S1000 OS/FW to Kurzeil K2000RS HW, has enough CPU, </br>
+but the other way, K2000 OS -> S1000 i see it difficult, Only Basic functions like Screen, buttons, etc... </br>
+S1000 OS --> S2000/S3000 is possible & easy, V53A is intruction compatible with V50, needs to adapt the code for the New HW. </br>
+K2000 OS --> S2000/S3000 maybe has enough CPU. </br>
 
 The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm used in many EDM genres Jungle, DnB, Trance, House, to stretch vocal samples. </br>
 there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is Not 100% the same </br>
