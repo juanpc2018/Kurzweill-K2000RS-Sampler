@@ -63,7 +63,7 @@ Akai S1000 NEC V50 CPU. </br>
 65C02 "CMOS" has +12 New instructions +2 New addressing modes "70 total" vs. MOS 6502 "NMOS" 56-total, both RISC type.</br>
 M37450 has small Page 0 at the end of memory space "cache" </br>
 first 256 bytes of memory are [reserved](https://en.wikipedia.org/wiki/Zero_page) </br>
-Toshiba TMP68301 is based on Motorola 68HC000 </br>
+Toshiba TMP68301 is based on Motorola 68HC000 CPU </br>
 
 Akai S1000 NEC V50 CPU is based on intel [80186](https://en.wikipedia.org/wiki/Intel_80186) + custom instructions + [8088](https://en.wikipedia.org/wiki/Intel_8088) emulation mode that requires special Assembler instuction to Activate. </br>
 8086/8088 "x86" has 133 instructions, Z80 has 155, both CISC type. </br>
