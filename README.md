@@ -104,20 +104,21 @@ modern CPU's need to count to [>1 Billion](https://www.youtube.com/watch?v=Vioxs
 
 since both Samplers are "very similar" exept Ram </br>
 would be interesting to translate Kurzweil J OS based on WDC 65C02 + Toshiba "68K" CPU to Intel 80186 / NEC V50 CPU </br>
-and Akai S1000 OS/Firmware based on [80186](https://en.wikipedia.org/wiki/Intel_80186)/188/V50 to WDC 65C02 CPU instruction set. </br>
+and Akai S1000 OS/Firmware based on [80186](https://en.wikipedia.org/wiki/Intel_80186)/188/V50 to WDC 65C02 + 68K CPU instruction set. </br>
+requires to analyze Block diagrams. </br>
 
 Screen & Floppy code should be very similar, Kurzweil has Akai S1000 floppy compatibility mode </br>
 front panel controls: push buttons & rotary wheel are "very similar" </br>
 
-Problem is that the S1000 V50 "v20/v30" CPU may Not be powerful enough... </br>
-Akai S2000 & S3000 Non-XL have the same V53A "V33" CPU </br>
+Problem is: S1000 V50 "v20/v30" CPU may Not be powerful enough... </br>
+Akai S2000 & S3000 Non-XL have V53A "V33" CPU </br>
 2x more powerful vs. V50 "v20/v30" CPU </br>
 Translating S1000 OS/FW to Kurzeil K2000RS HW, has enough CPU, </br>
-but the other way, K2000 OS -> S1000 i see it difficult, Only Basic functions like Screen, buttons, etc... </br>
-S1000 OS --> S2000/S3000 is possible & easy, V53A is intruction compatible with V50, needs to adapt the code for the New HW. </br>
+but the other way, K2000 OS -> S1000 difficult, Only Basic functions like Screen, buttons, etc... </br>
+S1000 OS --> S2000/S3000 is possible, V53A is intruction compatible with V50, needs to adapt the code for the New HW. </br>
 K2000 OS --> S2000/S3000 maybe has enough CPU. </br>
 
-The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm used in many EDM genres Jungle, DnB, Trance, House, to stretch vocal samples. </br>
+The "Magic" of the Akai S1000 sampler, was the Lo-Fi Time Strech Audio Algorithm used in many EDM genres: Jungle, DnB, Trance, House, to stretch vocal samples. </br>
 there is even an Akai S1000 Akaizer software emulator for PC/Desktop, but... is Not 100% the same </br>
 the magic of S1000 was the Slow CPU with No Branch Prediction, No speculative executions, Low interrupts, No special x86 subnormal instructions, No [8087 co-processor](https://www.youtube.com/watch?v=FaQa9INqZf8) floating point instructions </br>
 vs. modern CPU's with millions per second. </br>
@@ -135,7 +136,7 @@ includes: clock generator, interrupt controller, timers, wait state generator, D
 Akai S5000/S6000 has a [i386EX 33MHz](https://www.youtube.com/watch?v=BDU1t6HMHR8&t=1846s) there is No Service Manual, No schematics, </br>
 
 
-#### Problem is: </br>
+#### Problem: </br>
 Kurzweil OS/FW was probably designed in C, and compiled using Byte Craft C38 C compiler + custom LCD library </br>
 but Byte Craft company is gone since Owner died in 2019, those CPU's had limited support, unlike Intel 8051 MCU wide support </br>
 there is only C38 Compiler Demo Available + Generic LCD library. </br>
